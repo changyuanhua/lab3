@@ -23,9 +23,11 @@
         v1/v2 are different.
         insertion_sort(): 1.28 seconds
         v1/v2 are the same.
-  100000--跑久了，就出現重新連接
+  100000--
         sort(): 0.04 seconds
         v1/v2 are different.
+        insertion_sort(): 128.15 seconds
+        v1/v2 are the same.
   1000000--跑了一個小時，就會出現重新連接，我又得再重來一次，所以跑了三次沒成功我就放棄了
         sort(): 0.51 seconds
         v1/v2 are different.
