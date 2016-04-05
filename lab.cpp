@@ -1,4 +1,11 @@
 #include "lab.h"
+void lab::initial()
+{
+	int i;
+    for (i = 0;i < 10000;i++)
+		A[i]=0;
+	return ;
+}
 void lab::readfile()
 {
 	int i;
@@ -52,6 +59,7 @@ void lab::sort()
 int main()
 {
 	lab ss;
+	ss.initial();
 	ss.readfile();
 	ss.check();
 	ss.sort();
