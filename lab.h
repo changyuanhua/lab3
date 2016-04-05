@@ -5,6 +5,7 @@ using namespace std;
 class lab
 {
 	public:
+		void initial();
 		void readfile();
 		void check();
 		void sort();
